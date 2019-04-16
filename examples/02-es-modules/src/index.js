@@ -1,3 +1,3 @@
 import { printMessage } from './hello'
 
-printMessage('Victory for the Horde!')
+printMessage('Live Long and Prosper')
