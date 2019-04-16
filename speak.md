@@ -10,6 +10,15 @@ Povídání a ukázky
 
 ---
 
+## Evoluce
+
+* concat
+* Makefile
+* RequireJS (AMD)
+* Browserify
+
+---
+
 ## Je to bundler
 
 Spojuje moduly do optimalizovaných balíků
@@ -116,12 +125,3 @@ Jak udržet [čistý kód](https://www.martinus.cz/?uItem=73286) při zachován�
 ---
 
 ## Treeshaking
-
----
-
-## Evoluce
-
-* concat
-* Makefile
-* RequireJS (AMD)
-* Browserify
