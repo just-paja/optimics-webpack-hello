@@ -14,6 +14,8 @@ Povídání a ukázky
 
 Spojuje moduly do optimalizovaných balíků
 
+*Příklad 1*
+
 ----
 
 ### Modul může být cokoliv
@@ -63,6 +65,8 @@ export default function() {
 }
 ```
 
+*Příklad 2*
+
 ----
 
 ### Další typy modulů
@@ -78,6 +82,8 @@ export default function() {
 
 Preprocessing modulů
 
+*Příklad 3*
+
 ---
 
 ## Kompatibilita
@@ -89,10 +95,19 @@ Preprocessing modulů
 
 ### Transpilace
 
+Jak udržet [čistý kód](https://www.martinus.cz/?uItem=73286) při zachování kompatibility?
+
 * [babel](https://babeljs.io/) na ECMA script
 * [babel-preset-env](https://babeljs.io/docs/en/babel-preset-env) na kompatibilitu s cílovým prostředím
 * [Reason](https://reasonml.github.io/), pokud myslíte daleko do budoucnosti
 * [TypeScript](https://www.typescriptlang.org/), uvádím i špatné příklady
+
+----
+
+### Metody transpilace
+
+* transformace, viz [Function*](https://babeljs.io/docs/en/babel-plugin-transform-regenerator)
+* polyfill, viz [Array.prototype.reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce#Polyfill)
 
 ---
 
